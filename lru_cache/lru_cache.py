@@ -66,3 +66,5 @@ class LRUCache:
     self.order.add_to_head((key, value))
     self.storage[key] = self.order.head
     self.size += 1
+
+    #add_to_head: 
